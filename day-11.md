@@ -30,7 +30,7 @@ printf("curr_time = %d\n", curr_time);
 *app3*
 ```c
 #include <stdio.h>
-```c
+```
 
 ```c
 int __io_getchar(void)
