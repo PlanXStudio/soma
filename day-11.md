@@ -49,7 +49,7 @@ uint32_t in[3];
 setvbuf(stdin, NULL, _IONBF, 0);
 scanf("%d %d %d",&in[0], &in[1], &in[2]);
 printf("in[0] = %d, in[1] = %d, in[2] = %d\n", in[0], in[1], in[2]);
-```c
+```
 
 *app4*
 ```c
