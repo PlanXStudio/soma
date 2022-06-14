@@ -39,7 +39,7 @@ main()
   ...
 #ifndef POLLING //TIM Interrupt
 	/* Start Timer Interrupt */
-	TIM3 -> HAL_TIM_Base_Start_IT(&htim3) 
+	HAL_TIM_Base_Start_IT(&htim3) 
 #endif
 	while(1) {
 #ifdef POLLING  
