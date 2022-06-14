@@ -4,7 +4,8 @@
 UART2
 A10: Output
 B12: Input (Internal Pull-Up, EXTI Rising/Falling Edge)
-TIM3: 7200, 10000 --> 1sec
+TIM3: 7200, 10000 --> 1sec, global interrupt enable
+A10 <----cable ---> B12
 ----------------------------------------
 ```
 
