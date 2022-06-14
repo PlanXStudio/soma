@@ -17,7 +17,7 @@ TIM3: 7200, 10000 --> 1sec
 #ifndef POLLING
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 { 
-	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_10), HAL_Delay(1000); 
+	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_10); 
 }
 #endif
 ```
